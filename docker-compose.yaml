@@ -1,0 +1,12 @@
+services:
+  mt4:
+    build: .
+    container_name: mt4
+    volumes:
+      - ./config:/config
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
+      - config.env
+  
