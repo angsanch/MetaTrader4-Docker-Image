@@ -1,7 +1,8 @@
 services:
   mt4:
     build: .
-    container_name: mt4
+    image: angsanch/metatrader4_vnc
+    container_name: metatrader4-vnc
     volumes:
       - ./config:/config
     ports:
