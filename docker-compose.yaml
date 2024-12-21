@@ -10,4 +10,3 @@ services:
     env_file:
       - .env
       - config.env
-  
