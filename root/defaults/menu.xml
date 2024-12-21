@@ -6,9 +6,9 @@
         <command>/usr/bin/xterm</command>
         </action>
       </item>
-    <item label="Metatrader 4" icon="/config/.wine/drive_c/Program Files/MetaTrader 4/Terminal.ico">
+    <item label="Metatrader 4" icon="/config/.wine/drive_c/Program Files (x86)/MetaTrader 4/terminal.ico">
       <action name="Execute">
-        <command>/usr/bin/wine "/config/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe"</command>
+        <command>/usr/bin/wine "/config/.wine/drive_c/Program Files (x86)/MetaTrader 4/terminal.exe"</command>
         </action>
       </item>
   </menu>
